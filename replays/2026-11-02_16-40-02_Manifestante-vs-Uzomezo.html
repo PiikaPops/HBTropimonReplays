@@ -1,4 +1,20 @@
-|j|☆Manifestante
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>[Gen 9] Cobblemon Singles replay: Manifestante vs. Uzomezo</title>
+<!-- Recorded from Cobblemon by HunterBoard. Plays in the Pokémon Showdown replay viewer. -->
+<style>
+  html, body { font-family: Verdana, sans-serif; font-size: 10pt; margin: 0; padding: 0; }
+  body { padding: 12px 0; }
+  .battle, .battle-log, .replay-controls { margin: 0 auto; }
+  .wrapper { max-width: 1180px; margin: 0 auto; }
+</style>
+<div class="wrapper replay-wrapper">
+  <div class="battle"></div>
+  <div class="battle-log"></div>
+  <div class="replay-controls"></div>
+  <div class="replay-controls-2"></div>
+</div>
+<script type="text/plain" class="battle-log-data">|j|☆Manifestante
 |j|☆Uzomezo
 |player|p1|Manifestante|1|
 |player|p2|Uzomezo|2|
@@ -241,4 +257,15 @@
 |faint|p2a: Gigansel
 |faint|p2a: Gigansel
 |
-|win|Manifestante
+|win|Manifestante</script>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
+
+<script>
+(function () {
+  var startReplay = window.onload;
+  window.onload = function () {
+    try { if (window.BattleSound) window.BattleSound.muted = true; } catch (e) {}
+    if (startReplay) startReplay.apply(this, arguments);
+  };
+})();
+</script>
